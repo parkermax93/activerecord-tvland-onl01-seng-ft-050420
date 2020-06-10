@@ -13,7 +13,5 @@ class Actor < ActiveRecord::Base
     role = array_of_characters.concat array_of_shows
     roles << role.join(" - ")
     roles 
-    
-    
   end
 end
